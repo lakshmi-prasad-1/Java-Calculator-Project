@@ -15,7 +15,6 @@ public class Calculator {
             System.out.println("\n1.Add  2.Sub  3.Mul  4.Div  5.Sqrt  6.Pow  7.Temp  8.Currency");
             System.out.print("Choose (1-8): ");
             try {
-
                 Integer choice = sc.nextInt();
 
                 switch (choice) {
