@@ -31,6 +31,18 @@ This project helped me understand many important concepts in Java.
 3. BigDecimal confusion
    → learned how to use add(), subtract(), multiply(), divide()
 
+
+
+## Hardest Bug I Faced
+
+One of the hardest issues I faced was handling invalid user input.
+If the user entered text instead of numbers, the program was crashing.
+
+## How I Fixed It
+
+I fixed this by using try-catch blocks and handling InputMismatchException.
+I also cleared the input buffer using scanner.nextLine() to prevent repeated errors.
+
 ---
 
 ## What I improved
@@ -40,7 +52,6 @@ This project helped me understand many important concepts in Java.
 * Built GUI version of calculator
 
 ---
-
 ## Overall
 
 This project gave me confidence in Java basics and helped me understand how real applications handle user input and calculations.
