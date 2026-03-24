@@ -30,25 +30,23 @@ The main idea of this project is to understand how calculations work in real app
 
 ---
 
-## How to run
+## How to run (Maven)
 
-Compile:
+This project uses **Maven** for dependencies and standard build architecture.
 
-```
-javac Calculator.java
-javac SwingCalculator.java
-```
-
-Run console version:
-
-```
-java Calculator
+To compile:
+```bash
+mvn clean compile
 ```
 
 Run GUI version:
-
+```bash
+mvn exec:java -Dexec.mainClass="com.calculator.SwingCalculator"
 ```
-java SwingCalculator
+
+Run Console version:
+```bash
+mvn exec:java -Dexec.mainClass="com.calculator.Calculator"
 ```
 
 ---
